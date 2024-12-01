@@ -37,7 +37,7 @@ header {
   margin: 20px;
 }
 
-#csv-upload {
+#jsonr-upload {
   padding: 8px 12px;
   margin-right: 5px;
   font-size: 1rem;
@@ -51,8 +51,8 @@ header {
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-#csv-upload:hover,
-#csv-upload:focus {
+#jsonr-upload:hover,
+#jsonr-upload:focus {
   border-color: #0a9396;
   box-shadow: 0 0 5px rgba(10, 147, 150, 0.5);
 }
@@ -79,22 +79,36 @@ button:hover {
   padding: 20px;
   background-color: #ffffff;
   margin: 20px;
-  border-radius: 8px; /* or you can remove this too for a very flat look */
+  border-radius: 8px;
 }
 
 #header, #content, #footer {
   margin-top: 20px;
 }
 
-/* Responsive grid layout */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 10px;
+/* Additional Styles */
+.title {
+  font-weight: bold;
+  font-size: 2em;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.description {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.tech-skills, .experience {
+  margin-bottom: 20px;
+}
+
+.skill-list {
+  margin-left: 20px;
+}
+
+.experience-item {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  font-size: 1em;
 }
